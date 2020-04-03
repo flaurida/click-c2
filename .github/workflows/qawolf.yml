@@ -38,9 +38,9 @@ jobs:
         #   # https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-and-using-encrypted-secrets
         #   LOGIN_PASSWORD: ${{ secrets.PASSWORD }}
 
-      - name: Upload Artifacts
-        if: always()
-        uses: actions/upload-artifact@master
-        with:
-          name: qawolf
-          path: ${{ github.workspace }}/artifacts
+      # - name: Upload Artifacts
+      #   if: always()
+      #   uses: actions/upload-artifact@master
+      #   with:
+      #     name: qawolf
+      #     path: ${{ github.workspace }}/artifacts
