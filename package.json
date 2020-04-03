@@ -1,0 +1,16 @@
+{
+  "name": "survey-filler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "qawolf test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "~25.1.0",
+    "playwright": "~0.12.1",
+    "qawolf": "~0.12.4"
+  }
+}
